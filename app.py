@@ -4,11 +4,9 @@
 # In[1]:
 
 
-import seaborn as sns
 import pandas as pd
 import numpy as np
 import random
-import os
 import base64
 
 import plotly.express as px
