@@ -31,7 +31,7 @@ import dash_bootstrap_components as dbc
 # In[3]:
 
 
-def stdc(std):
+def stdc():
     stddf = pd.read_csv('both_batches.csv')
     stddf.drop(['Unnamed: 0'],axis=1,inplace=True)
     stddf. astype(str)
@@ -48,20 +48,7 @@ def stdc(std):
 # In[4]:
 
 
-stddf = pd.read_csv('both_batches.csv')
-stddf.drop(['Unnamed: 0'],axis=1,inplace=True)
-stddf. astype(str)
-
-b=stddf[['Batch','Name']]
-x = b[['Batch']].value_counts()
-y = len(x)
-d = b[['Name']].count()
-
-
-# In[5]:
-
-
-def details(std):
+def details():
     stddf = pd.read_csv('both_batches.csv')
     stddf.drop(['Unnamed: 0'],axis=1,inplace=True)
     stddf. astype(str)
@@ -83,11 +70,11 @@ def details(std):
     return[df,df1,df2,stddf]
 
 
-# In[6]:
+# In[5]:
 
 
-def graphics(std):
-    [df,df1,df2,stddf]=details(std)
+def graphics():
+    [df,df1,df2,stddf]=details()
     
     fig3 = px.scatter_mapbox(df, lat = 'LATITUDE', lon = 'LONGITUDE', color = 'Batch', hover_name = "Dzongkhags",
                              size='Number of Student', hover_data= {"Dzongkhags":True, "Batch": True,"LATITUDE": False,
@@ -112,35 +99,35 @@ def graphics(std):
 
 # # Rinchen Jamtsho
 
-# In[7]:
+# In[6]:
 
 
 df=pd.read_csv('Grades_Final_score_B1.csv')
 df1=pd.read_csv('Grades - Final_score_B2.csv')
 
 
-# In[8]:
+# In[7]:
 
 
 gr=df.groupby(['Grade','Highest Education']).count()[['ID']]
 gr.reset_index(inplace=True)
 
 
-# In[9]:
+# In[8]:
 
 
 gr1=df.groupby(['Age','Grade','Gender']).count()[['ID']]
 gr1.reset_index(inplace=True)
 
 
-# In[10]:
+# In[9]:
 
 
 gp=df1.groupby(['Education','Overall Grade']).count()[['ID']]
 gp.reset_index(inplace=True)
 
 
-# In[11]:
+# In[10]:
 
 
 gp1=df1.groupby(['Age','Overall Grade','Gender']).count()[['ID']]
@@ -149,7 +136,7 @@ gp1.reset_index(inplace=True)
 
 # # Kiran Gurung
 
-# In[12]:
+# In[11]:
 
 
 df1=pd.read_csv('Grades_Final_score_Batch11.csv')
@@ -157,7 +144,7 @@ df2=pd.read_csv('Grades_Final_score_Batch22.csv')
 df3 = pd.concat([df1,df2],axis=0)
 
 
-# In[13]:
+# In[12]:
 
 
 def getscore(students):
@@ -168,7 +155,7 @@ def getscore(students):
     return [batch,rank,grade]
 
 
-# In[14]:
+# In[13]:
 
 
 def drawfig(students):
@@ -187,7 +174,7 @@ def drawfig(students):
 
 # # Namgay Tshering
 
-# In[15]:
+# In[14]:
 
 
 df4=pd.read_csv('both_batches.csv')
@@ -197,7 +184,7 @@ df4=df4. astype(str)
 
 # # Layout
 
-# In[16]:
+# In[15]:
 
 
 app = JupyterDash(external_stylesheets=[dbc.themes.SUPERHERO, dbc.icons.FONT_AWESOME])
@@ -205,7 +192,7 @@ app.title = "Dashboard for Data Analytics (first batch and second batch) Perform
 server = app.server
 
 
-# In[17]:
+# In[16]:
 
 
 image_filename =  'batch1.jpg'
@@ -220,7 +207,7 @@ image_filename = 'desuung.png'
 desuung = base64.b64encode(open(image_filename, 'rb').read())
 
 
-# In[18]:
+# In[17]:
 
 
 students=list(df3['Name'])
@@ -277,7 +264,7 @@ app.layout= dbc.Container([
                             html.H4("First Batch", className="card-title"),
                             html.P(
                                 "There are total 20 students with "
-                                "16 Male student and 4 Female student",
+                                "16 Male students and 4 Female students.",
                                 className="card-text",
                             ),
                         ],style={'font-family': 'Comic Sans MS','fontsize':20}),
@@ -305,7 +292,7 @@ app.layout= dbc.Container([
                             html.H4("Second Batch", className="card-title"),
                             html.P(
                                 "There are total 20 students with "
-                                "9 Male student and 11 Female student",
+                                "9 Male students and 11 Female students.",
                                 className="card-text",
                             ),
                         ],style={'font-family': 'Comic Sans MS','fontsize':20}),
@@ -437,7 +424,7 @@ app.layout= dbc.Container([
 ])
 
 
-# In[19]:
+# In[18]:
 
 
 @app.callback(
@@ -452,7 +439,7 @@ def grawfig(n,is_open):
     return is_open
 
 
-# In[20]:
+# In[19]:
 
 
 @app.callback(
@@ -467,7 +454,7 @@ def grawfig(n,is_open):
     return is_open
 
 
-# In[21]:
+# In[20]:
 
 
 @app.callback(
@@ -482,7 +469,7 @@ def grawfig(n,is_open):
     return is_open
 
 
-# In[22]:
+# In[21]:
 
 
 @app.callback([
@@ -499,14 +486,14 @@ def draw_graph(std):
     if std is None:
         raise PreventUpdate
     else:
-        [fig3,fig4,fig5,fig6]=graphics(std)
+        [fig3,fig4,fig5,fig6]=graphics()
         
-        [op1,op2] = stdc(std)
+        [op1,op2] = stdc()
         
     return [op1,op2,fig3,fig4,fig5,fig6]
 
 
-# In[23]:
+# In[22]:
 
 
 @app.callback([
@@ -541,7 +528,7 @@ def draw_graph(tabs):
     return [fig1,fig2]
 
 
-# In[24]:
+# In[23]:
 
 
 @app.callback(
@@ -566,7 +553,7 @@ def draw_graph_std(students):
     return [batch,rank,grade,fig7]
 
 
-# In[25]:
+# In[24]:
 
 
 @app.callback(
@@ -581,7 +568,7 @@ def toggle_coll(k, is_open):
         return is_open
 
 
-# In[26]:
+# In[25]:
 
 
 @app.callback(
@@ -596,7 +583,7 @@ def toggle_coll(c,is_open):
     return is_open
 
 
-# In[27]:
+# In[26]:
 
 
 @app.callback(
@@ -611,7 +598,7 @@ def toggle_coll(g,is_open):
     return is_open
 
 
-# In[28]:
+# In[27]:
 
 
 @app.callback(
@@ -626,7 +613,7 @@ def grawfig(n,is_open):
     return is_open
 
 
-# In[29]:
+# In[28]:
 
 
 @app.callback(
@@ -640,7 +627,7 @@ def make_table(s):
     return dbc.Table.from_dataframe(df4.head(5), striped=True, bordered=True, color = "primary", hover=True)
 
 
-# In[30]:
+# In[29]:
 
 
 if __name__ == '__main__':
