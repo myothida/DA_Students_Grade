@@ -212,6 +212,12 @@ image_filename =  'batch1.jpg'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 image_filename =  'batch2.jpg'
 encoded_image2 = base64.b64encode(open(image_filename, 'rb').read())
+image_filename = 'ibm.png'
+ibm = base64.b64encode(open(image_filename, 'rb').read())
+image_filename = 'drmyo.JPG'
+drmyo = base64.b64encode(open(image_filename, 'rb').read())
+image_filename = 'desuung.png'
+desuung = base64.b64encode(open(image_filename, 'rb').read())
 
 
 # In[18]:
@@ -224,7 +230,7 @@ app.layout= dbc.Container([
 
         html.Div([
             html.Img(
-                    src = 'http://desuung.org.bt/wp-content/uploads/2020/11/qwert.png',
+                    src = 'data:/image/png;base64,{}'.format(desuung.decode()),
                     height = '90 px',
                     width = 'auto')
             ],
@@ -244,7 +250,7 @@ app.layout= dbc.Container([
 
         html.Div([
             html.Img(
-                    src = 'https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png',
+                    src = 'data:/image/png;base64,{}'.format(ibm.decode()),
                     height = '80 px',
                     width = 'auto')
             ],
@@ -280,7 +286,7 @@ app.layout= dbc.Container([
                 
                 dbc.Col(
                     dbc.Card([
-                    dbc.CardImg(src="https://lh3.googleusercontent.com/pw/AM-JKLV8k2SdZu8H9k9WIgb-koXMhPFmpF-ztjT5F_7NL66e65pEVw4qD1rBd9rUqUMTiT0jWTuUWg4gVDnYImqEyZc2QpBVovvfcoWEWn9F3IOWnwZEAvJ4y1NyekNXn5Yk3ygXZXUFGidwQR4DaTOz9udB=w1139-h854-no?authuser=0", top=True),
+                    dbc.CardImg(src='data:image/jpg;base64,{}'.format(drmyo.decode()), top=True),
                     dbc.CardBody([
                             html.H4("Dr. Myo Thida", className="card-title"),
                             html.P(
