@@ -1,0 +1,21 @@
+ID,Name,Dzongkhag,Age,Highest Education,Gender,Module 1,Module 2,Module 3,Module 4,Module 5,Module 6,Module 7,Module 8,Module 9,Final Score,Grade
+1,Yeshey Wangdi,Haa,32,Degree (Civil),Male,86,65,89,79,64,70,47,41,100,71.1,B
+2,Ugyen Dendup,Monger,22,XII passout,Male,80,13,61,89,78,77,85,60,100,71.5,B
+3,Yeshi Norbu Wangdi,Sarpang,24,XII passout,Male,76,73,69,82,50,81,57,70,83,71.2,B
+4,Rinzin Dorji,Sarpang,25,Degree,Male,68,42,85,85,93,75,47,62,100,73,B
+5,Tashi Phuntasho,Monger,31,Degree,Male,86,53,79,81,73,78,71,51,100,74.8,B
+6,Karma Wangchuk,Tashiyangtse,22,XII passout,Male,82,63,80,85,94,78,64,52,100,77.7,A
+7,Pema Chogyal,Tashigang,29,Degree (Dzongkha),Male,83,43,76,80,83,76,79,55,100,75.1,A
+8,Namgay Tshering,s/jongkhar,21,XII passout,Male,81,47,88,86,83,68,66,57,100,75.2,A
+9,Kiran Gurung,Sarpang,24,Diploma (Financial),Male,84,70,85,88,69,76,68,60,100,77.9,A
+10,Leki Wangmo,Thimphu,30,Degree,Female,75,76,85,91,73,70,74,60,100,78.3,A
+11,Phuntsho Wangmo,Tashigang,27,Degree,Female,91,43,70,85,92,80,69,71,100,77.8,A
+12,Rinchen Jamtsho,Tashigang,21,XII passout,Male,96,56,77,78,92,75,66,57,100,77.3,A
+13,Ugyen Wangchuk,lhuentse,21,XII passout,Male,93,36,77,81,93,80,78,64,100,78.1,A
+14,Tenzin Namgyel,Lhuentse,21,XII passout,Male,78,60,82,85,78,67,63,33,67,68.2,C
+15,Chimfel Sonam Tobgay,Mongar,27,XII passout,Male,67,48,76,83,78,84,74,63,100,74.7,B
+16,Tshewang Tenzin,Monger,25,Degree,Male,83,14,88,86,92,74,64,48,100,72.1,B
+17,Dorji Lham,Tsirang,22,XII passout,Female,85,47,77,81,89,72,76,54,100,75.6,A
+18,Pema Zangmo,Monger,29,Degree,Female,85,17,88,83,89,75,63,66,100,73.9,B
+19,Sonam Gyaltshen,Tashigang,23,X passout,Male,86,41,73,82,68,78,71,48,100,72,B
+20,Deywa Zop,Paro,27,XII passout,Male,89,55,83,94,89,80,66,54,100,78.9,A

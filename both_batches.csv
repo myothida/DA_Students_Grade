@@ -1,0 +1,40 @@
+,Name,Dzongkhags,LATITUDE,LONGITUDE,Age,Highest Education,Batch,Gender,Module 1,Module 2,Module 3,Module 4,Module 5,Module 6,Module 7,Module 8,Module 9,Final Score,Grade
+0,Yeshey Wangdi,Haa,27.3862,89.2776,32,Degree (Civil),First Batch,Male,86,65,89,79,64,70,47,41,100,71.1,B
+1,Ugyen Dendup,Monggar,27.2754,91.2398,22,XII passout,First Batch,Male,80,13,61,89,78,77,85,60,100,71.5,B
+2,Yeshi Norbu Wangdi,Sarpang,26.8643,90.269,24,XII passout,First Batch,Male,76,73,69,82,50,81,57,70,83,71.2,B
+3,Rinzin Dorji,Sarpang,26.8643,90.269,25,Degree,First Batch,Male,68,42,85,85,93,75,47,62,100,73,B
+4,Tashi Phuntasho,Monggar,27.2754,91.2398,31,Degree,First Batch,Male,86,53,79,81,73,78,71,51,100,74.8,B
+5,Karma Wangchuk,Trashi Yangtse,27.8236,91.4435,22,XII passout,First Batch,Male,82,63,80,85,94,78,64,52,100,77.7,A
+6,Pema Chogyal,Trashigang,27.3325,91.5523,29,Degree (Dzongkha),First Batch,Male,83,43,76,80,83,76,79,55,100,75.1,A
+7,Namgay Tshering,Samdrup Jongkhar,26.8036,91.5039,21,XII passout,First Batch,Male,81,47,88,86,83,68,66,57,100,75.2,A
+8,Kiran Gurung,Sarpang,26.8643,90.269,24,Diploma (Financial),First Batch,Male,84,70,85,88,69,76,68,60,100,77.9,A
+9,Leki Wangmo,Thimphu,27.4712,89.6339,30,Degree,First Batch,Female,75,76,85,91,73,70,74,60,100,78.3,A
+10,Phuntsho Wangmo,Trashigang,27.3325,91.5523,27,Degree,First Batch,Female,91,43,70,85,92,80,69,71,100,77.8,A
+11,Rinchen Jamtsho,Trashigang,27.3325,91.5523,21,XII passout,First Batch,Male,96,56,77,78,92,75,66,57,100,77.3,A
+12,Ugyen Wangchuk,Lhuntse,27.8265,91.1353,21,XII passout,First Batch,Male,93,36,77,81,93,80,78,64,100,78.1,A
+13,Tenzin Namgyel,Lhuntse,27.8265,91.1353,21,XII passout,First Batch,Male,78,60,82,85,78,67,63,33,67,68.2,C
+14,Chimfel Sonam Tobgay,Monggar,27.2754,91.2398,27,XII passout,First Batch,Male,67,48,76,83,78,84,74,63,100,74.7,B
+15,Tshewang Tenzin,Monggar,27.2754,91.2398,25,Degree,First Batch,Male,83,14,88,86,92,74,64,48,100,72.1,B
+16,Dorji Lham,Tsirang,27.0322,90.187,22,XII passout,First Batch,Female,85,47,77,81,89,72,76,54,100,75.6,A
+17,Pema Zangmo,Monggar,27.2754,91.2398,29,Degree,First Batch,Female,85,17,88,83,89,75,63,66,100,73.9,B
+18,Sonam Gyaltshen,Trashigang,27.3325,91.5523,23,X passout,First Batch,Male,86,41,73,82,68,78,71,48,100,72,B
+19,Deywa Zop,Paro,27.4287,89.4164,27,XII passout,First Batch,Male,89,55,83,94,89,80,66,54,100,78.9,A
+20,Dechen Dorji,Paro,27.4287,89.4164,20,Class XII Commerce,Second Batch,Male,74,69,91,59.99,100,71.35,62.5,70,87,76,A
+21,Deki Tshomo,Monggar,27.2754,91.2398,24,Bachelor in Hospitality Management,Second Batch,Female,69,67,91,45.4,95.83,54.78,56.5,55,45,64,C
+22,Dorji Tshering,Dagana ,27.097,89.8739,20,Class XII Commerce,Second Batch,Male,67,66,91,56.97,100,62.98,63.5,70,83,73,B
+23,Dorji Wangmo,Gelephu,26.8725,90.4927,26,Bachelor in B.Com(Finance),Second Batch,Female,83,72,91,52.09,100,66.25,63.5,72,89,77,A
+24,Gem Tshering Lepcha,Chhukha,27.0523,89.5757,23,Class XII Commerce,Second Batch,Male,73,65,91,42.46,91.5,49.38,63,70,89,70,B
+25,Jigme Dorji,Trashigang,27.3325,91.5523,26,Class XII Science (Dropped from Sherutbse),Second Batch,Female,67,76,85,57.67,95.83,61.57,59,68,79,72,B
+26,Kinley Cheki,Trashigang,27.3325,91.5523,24,Bachelor in Mathematics and Physics,Second Batch,Male,74,78,91,72.67,95.83,62.93,71.5,86,90,80,Dsitinction
+27,Kinley Wangmo,Thimphu,27.4712,89.6339,23,Bachelor in Science & Env Management,Second Batch,Male,71,80,91,62.16,100,63.14,56.5,65,92,76,A
+28,Ngawang Dema Karpo,Haa,27.3862,89.2776,23,Bachelor in B.Com(Finance),Second Batch,Male,80,74,91,61.43,100,62.35,84,80,89,80,Dsitinction
+29,Roshan Chhetri,Samtse,26.9131,89.0836,25,BSC in Forensics,Second Batch,Male,95,78,91,52.72,83,72.4,85.5,86,87,81,Dsitinction
+30,Sonam Tenzin,Wangdue Phodrang,27.4879,89.8996,22,1st year Mathematics,Second Batch,Male,74,79,91,42.38,100,61.81,68,76,88,76,A
+31,Sonam Tobgay,Trashigang,27.3325,91.5523,27,5th Sem (BSc Environmental Science),Second Batch,Male,67,63,88,37.73,91.65,57.67,63,78,83,70,C
+32,Sonam Yangden,Monggar,27.2754,91.2398,21,Class XII- Commerce,Second Batch,Male,85,64,91,51.03,100,62.54,68,74,89,76,A
+33,Tandin Om,Wangdue Phodrang,27.4879,89.8996,22,Diploma in Tourism and Hospitality,Second Batch,Female,65,74,91,38.52,95.83,48.63,56.5,58,78,67,C
+34,Tandin Wangchuk,Monggar,27.2754,91.2398,20,Class XII- Commerce,Second Batch,Female,74,74,91,51.13,100,56.44,61.5,60,85,73,B
+35,Tashi Om,Wangdue Phodrang,27.4879,89.8996,24,Bachelor in B.Com Accounting,Second Batch,Male,86,78,91,52.93,100,64.42,61.5,70,91,77,A
+36,Tenday Zangmo,Trashi Yangtse,27.8236,91.4435,24,Bachelor in Business Administration,Second Batch,Female,84,83,91,54.41,100,64.62,79,80,78,79,A
+37,Tshering Pem,Paro,27.4287,89.4164,25,Bachelor in Business Administration,Second Batch,Female,87,80,91,40.64,100,66.1,68,65,93,77,A
+38,Ugyen Phurpa,Gelephu,26.8725,90.4927,20,Class XII-Arts,Second Batch,Male,78,70,87,59.25,100,57.6,78,76,86,77,A
